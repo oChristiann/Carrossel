@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> carrossel </title>
+    <meta charset="utf-8">
+    <script src="/js/scripts.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/slide.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="navbar_logo"> <span>G</span>ame <span>Z</span>one </div>
+
+        <a href="#" class="navbar_button">
+            <span class="bar" id="top"></span>
+            <span class="bar" id="center"></span>
+            <span class="bar" id="botton"></span>
+        </a>
+
+        <div class="navbar_links">
+            <ul>
+                <li> <a href=""> Início </a> </li>
+                <li> <a href=""> Sobre Nós </a> </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="drop_button">
+                            Consoles &#9660
+                        </button>
+                        <div class="drop_content">
+                            <a href=""> Xbox </a>
+                            <a href=""> PC </a>
+                            <a href=""> Playstation </a>
+                        </div>
+                    </div>
+                </li>
+                <li> <a href=""> Contatos & Redes Sociais </a> </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <section class="slider">
+        <div class="slider-content">
+
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="/img/Imagem1.png" alt="slide 1">
+                <div class="i_text"> Venha nos conhecer melhor! </div>
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="/img/Imagem2.png" alt="slide 3">
+                <div class="i_text"> Play? </div>
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="/img/Imagem3.png" alt="slide 3">
+                <div class="i_text"> Lançamento "Interstellar Journey" </div>
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
